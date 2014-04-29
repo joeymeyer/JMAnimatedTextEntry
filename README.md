@@ -14,9 +14,9 @@ UILabel *label = ...;
 
 [label jm_setText:@"Some text" animatedWithDuration:1.0 completion:^(BOOL finished) {
 	if	(finished) {
-		# Text has finished animating.
+		// Text has finished animating.
 	} else {
-		# Text entry was interrupted.
+	  // Text entry was interrupted.
 	}
 }];
 ```
