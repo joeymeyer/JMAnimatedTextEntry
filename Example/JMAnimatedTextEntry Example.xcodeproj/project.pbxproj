@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3D35D3190C430A00CF8F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3D35D2190C430A00CF8F51 /* Foundation.framework */; };
+		2B3D35D5190C430A00CF8F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3D35D4190C430A00CF8F51 /* CoreGraphics.framework */; };
+		2B3D35D7190C430A00CF8F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3D35D6190C430A00CF8F51 /* UIKit.framework */; };
+		2B3D35DD190C430A00CF8F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B3D35DB190C430A00CF8F51 /* InfoPlist.strings */; };
+		2B3D35DF190C430A00CF8F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D35DE190C430A00CF8F51 /* main.m */; };
+		2B3D35E3190C430A00CF8F51 /* JMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D35E2190C430A00CF8F51 /* JMAppDelegate.m */; };
+		2B3D35E5190C430A00CF8F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3D35E4190C430A00CF8F51 /* Images.xcassets */; };
+		2B3D3608190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D3607190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.m */; };
+		2B3D360B190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D360A190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.m */; };
+		2B3D360E190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D360D190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.m */; };
+		2B3D3611190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D3610190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.m */; };
+		2B3D361B190D147B00CF8F51 /* JMExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D3619190D147B00CF8F51 /* JMExampleViewController.m */; };
+		2B3D361C190D147B00CF8F51 /* JMExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3D361A190D147B00CF8F51 /* JMExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B3D35CF190C430A00CF8F51 /* JMAnimatedTextEntry Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JMAnimatedTextEntry Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3D35D2190C430A00CF8F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B3D35D4190C430A00CF8F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B3D35D6190C430A00CF8F51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B3D35DA190C430A00CF8F51 /* JMAnimatedTextEntry Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMAnimatedTextEntry Example-Info.plist"; sourceTree = "<group>"; };
+		2B3D35DC190C430A00CF8F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B3D35DE190C430A00CF8F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B3D35E0190C430A00CF8F51 /* JMAnimatedTextEntry Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMAnimatedTextEntry Example-Prefix.pch"; sourceTree = "<group>"; };
+		2B3D35E1190C430A00CF8F51 /* JMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppDelegate.h; sourceTree = "<group>"; };
+		2B3D35E2190C430A00CF8F51 /* JMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppDelegate.m; sourceTree = "<group>"; };
+		2B3D35E4190C430A00CF8F51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B3D35EB190C430A00CF8F51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B3D3603190C435700CF8F51 /* JMAnimatedTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMAnimatedTextEntry.h; path = ../JMAnimatedTextEntry/JMAnimatedTextEntry.h; sourceTree = "<group>"; };
+		2B3D3606190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMAnimatedTextEntryRegistration.h; path = ../JMAnimatedTextEntry/JMAnimatedTextEntryRegistration.h; sourceTree = "<group>"; };
+		2B3D3607190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMAnimatedTextEntryRegistration.m; path = ../JMAnimatedTextEntry/JMAnimatedTextEntryRegistration.m; sourceTree = "<group>"; };
+		2B3D3609190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+JMAnimatedTextEntry.h"; path = "../JMAnimatedTextEntry/UITextField+JMAnimatedTextEntry.h"; sourceTree = "<group>"; };
+		2B3D360A190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JMAnimatedTextEntry.m"; path = "../JMAnimatedTextEntry/UITextField+JMAnimatedTextEntry.m"; sourceTree = "<group>"; };
+		2B3D360C190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+JMAnimatedTextEntry.h"; path = "../JMAnimatedTextEntry/UITextView+JMAnimatedTextEntry.h"; sourceTree = "<group>"; };
+		2B3D360D190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+JMAnimatedTextEntry.m"; path = "../JMAnimatedTextEntry/UITextView+JMAnimatedTextEntry.m"; sourceTree = "<group>"; };
+		2B3D360F190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JMAnimatedTextEntry.h"; path = "../JMAnimatedTextEntry/UILabel+JMAnimatedTextEntry.h"; sourceTree = "<group>"; };
+		2B3D3610190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JMAnimatedTextEntry.m"; path = "../JMAnimatedTextEntry/UILabel+JMAnimatedTextEntry.m"; sourceTree = "<group>"; };
+		2B3D3612190C4C0900CF8F51 /* UIKit+JMAnimatedTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIKit+JMAnimatedTextEntry.h"; path = "../JMAnimatedTextEntry/UIKit+JMAnimatedTextEntry.h"; sourceTree = "<group>"; };
+		2B3D3618190D147B00CF8F51 /* JMExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMExampleViewController.h; sourceTree = "<group>"; };
+		2B3D3619190D147B00CF8F51 /* JMExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMExampleViewController.m; sourceTree = "<group>"; };
+		2B3D361A190D147B00CF8F51 /* JMExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3D35CC190C430A00CF8F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3D35D5190C430A00CF8F51 /* CoreGraphics.framework in Frameworks */,
+				2B3D35D7190C430A00CF8F51 /* UIKit.framework in Frameworks */,
+				2B3D35D3190C430A00CF8F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3D35C6190C430A00CF8F51 = {
+			isa = PBXGroup;
+			children = (
+				2B3D3601190C432600CF8F51 /* External */,
+				2B3D35D8190C430A00CF8F51 /* JMAnimatedTextEntry Example */,
+				2B3D35D1190C430A00CF8F51 /* Frameworks */,
+				2B3D35D0190C430A00CF8F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3D35D0190C430A00CF8F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D35CF190C430A00CF8F51 /* JMAnimatedTextEntry Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3D35D1190C430A00CF8F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D35D2190C430A00CF8F51 /* Foundation.framework */,
+				2B3D35D4190C430A00CF8F51 /* CoreGraphics.framework */,
+				2B3D35D6190C430A00CF8F51 /* UIKit.framework */,
+				2B3D35EB190C430A00CF8F51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3D35D8190C430A00CF8F51 /* JMAnimatedTextEntry Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D35E1190C430A00CF8F51 /* JMAppDelegate.h */,
+				2B3D35E2190C430A00CF8F51 /* JMAppDelegate.m */,
+				2B3D35E4190C430A00CF8F51 /* Images.xcassets */,
+				2B3D35D9190C430A00CF8F51 /* Supporting Files */,
+				2B3D3618190D147B00CF8F51 /* JMExampleViewController.h */,
+				2B3D3619190D147B00CF8F51 /* JMExampleViewController.m */,
+				2B3D361A190D147B00CF8F51 /* JMExampleViewController.xib */,
+			);
+			path = "JMAnimatedTextEntry Example";
+			sourceTree = "<group>";
+		};
+		2B3D35D9190C430A00CF8F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D35DA190C430A00CF8F51 /* JMAnimatedTextEntry Example-Info.plist */,
+				2B3D35DB190C430A00CF8F51 /* InfoPlist.strings */,
+				2B3D35DE190C430A00CF8F51 /* main.m */,
+				2B3D35E0190C430A00CF8F51 /* JMAnimatedTextEntry Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B3D3601190C432600CF8F51 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D3602190C433300CF8F51 /* JMAnimatedTextEntry */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		2B3D3602190C433300CF8F51 /* JMAnimatedTextEntry */ = {
+			isa = PBXGroup;
+			children = (
+				2B3D3603190C435700CF8F51 /* JMAnimatedTextEntry.h */,
+				2B3D3606190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.h */,
+				2B3D3607190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.m */,
+				2B3D3609190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.h */,
+				2B3D360A190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.m */,
+				2B3D360C190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.h */,
+				2B3D360D190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.m */,
+				2B3D360F190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.h */,
+				2B3D3610190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.m */,
+				2B3D3612190C4C0900CF8F51 /* UIKit+JMAnimatedTextEntry.h */,
+			);
+			name = JMAnimatedTextEntry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3D35CE190C430A00CF8F51 /* JMAnimatedTextEntry Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3D35FB190C430A00CF8F51 /* Build configuration list for PBXNativeTarget "JMAnimatedTextEntry Example" */;
+			buildPhases = (
+				2B3D35CB190C430A00CF8F51 /* Sources */,
+				2B3D35CC190C430A00CF8F51 /* Frameworks */,
+				2B3D35CD190C430A00CF8F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JMAnimatedTextEntry Example";
+			productName = "JMAnimatedTextEntry Example";
+			productReference = 2B3D35CF190C430A00CF8F51 /* JMAnimatedTextEntry Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3D35C7190C430A00CF8F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joey Meyer";
+			};
+			buildConfigurationList = 2B3D35CA190C430A00CF8F51 /* Build configuration list for PBXProject "JMAnimatedTextEntry Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B3D35C6190C430A00CF8F51;
+			productRefGroup = 2B3D35D0190C430A00CF8F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3D35CE190C430A00CF8F51 /* JMAnimatedTextEntry Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3D35CD190C430A00CF8F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3D35DD190C430A00CF8F51 /* InfoPlist.strings in Resources */,
+				2B3D35E5190C430A00CF8F51 /* Images.xcassets in Resources */,
+				2B3D361C190D147B00CF8F51 /* JMExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3D35CB190C430A00CF8F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3D3608190C49B300CF8F51 /* JMAnimatedTextEntryRegistration.m in Sources */,
+				2B3D3611190C4BBE00CF8F51 /* UILabel+JMAnimatedTextEntry.m in Sources */,
+				2B3D35DF190C430A00CF8F51 /* main.m in Sources */,
+				2B3D360E190C4B6800CF8F51 /* UITextView+JMAnimatedTextEntry.m in Sources */,
+				2B3D360B190C4AA700CF8F51 /* UITextField+JMAnimatedTextEntry.m in Sources */,
+				2B3D361B190D147B00CF8F51 /* JMExampleViewController.m in Sources */,
+				2B3D35E3190C430A00CF8F51 /* JMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B3D35DB190C430A00CF8F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3D35DC190C430A00CF8F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B3D35F9190C430A00CF8F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3D35FA190C430A00CF8F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3D35FC190C430A00CF8F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMAnimatedTextEntry Example/JMAnimatedTextEntry Example-Prefix.pch";
+				INFOPLIST_FILE = "JMAnimatedTextEntry Example/JMAnimatedTextEntry Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B3D35FD190C430A00CF8F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMAnimatedTextEntry Example/JMAnimatedTextEntry Example-Prefix.pch";
+				INFOPLIST_FILE = "JMAnimatedTextEntry Example/JMAnimatedTextEntry Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3D35CA190C430A00CF8F51 /* Build configuration list for PBXProject "JMAnimatedTextEntry Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3D35F9190C430A00CF8F51 /* Debug */,
+				2B3D35FA190C430A00CF8F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3D35FB190C430A00CF8F51 /* Build configuration list for PBXNativeTarget "JMAnimatedTextEntry Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3D35FC190C430A00CF8F51 /* Debug */,
+				2B3D35FD190C430A00CF8F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3D35C7190C430A00CF8F51 /* Project object */;
+}
