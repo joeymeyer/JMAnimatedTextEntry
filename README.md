@@ -2,7 +2,7 @@
 
 JMAnimatedTextEntry allows you to easily animate text entry on `UIKit` components.
 
-![Example.gif](./Example/Example.gif)
+![Example.gif](Example/Example.gif)
 
 ## Usage
 
