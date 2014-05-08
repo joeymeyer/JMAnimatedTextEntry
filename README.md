@@ -70,4 +70,4 @@ At this point, this project most likely works but has not been extensively teste
 
 ## License
 
-JMAniamtedTextEntry is available under the MIT license. See the LICENSE file for more info.
+JMAnimatedTextEntry is available under the MIT license. See the LICENSE file for more info.
