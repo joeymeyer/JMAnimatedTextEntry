@@ -31,7 +31,7 @@ If text is being animated and you need it to stop, simply call:
 It's actually very easy to add `JMAnimatedTextEntry` methods to any class that has the `text` property. Let's say for example you have a label class that displays text in a spiral. You could enable animated text entry on it simply by adding the `JMAnimatedTextEntry` protocol:
 
 ```objective-c
-@interface SpiralLabel <JMAnimatedTextEntry>
+@interface SpiralLabel : UIView <JMAnimatedTextEntry>
 
 ...
 
